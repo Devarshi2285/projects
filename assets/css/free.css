@@ -1,0 +1,70 @@
+.container1{
+    height: 100vh;
+    width: 1688px;
+}
+.free {
+    height: 100%;
+    width: 1410x;
+    background-color: aqua;
+    position: relative;
+    left: 0px;
+    top: 96px;
+    text-align: center;
+    
+}
+
+.free p{
+    font-size: 30px;
+    white-space: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container2{
+    margin-top: 10px;
+}
+
+
+.but{
+    height: 49px;
+    width: 222px;
+    background-color:darkcyan;
+    color:whitesmoke;
+    position: relative;
+    left: 730px;
+    top: -2px;
+    font-size: 16px;
+  
+    box-shadow: 10px 5px 5px black;
+   
+}
+
+.but :hover{
+    cursor: pointer;
+    color: black;
+
+   
+}
+.content2{
+    position: relative;
+    left: 800px;
+    font-size: 30px;
+    bottom: 500px;
+    height: 200px;
+    width: 800px;
+
+
+}
+.img2{
+        position: relative;
+    bottom: 490px;
+    width: 510px;
+    left: 230px;
+}
+.container2  {
+    background-image: linear-gradient(#6fd7f4,#289ff4,#0c59cd);
+}
+
+.container2 p{
+    position: relative;
+    bottom: 2px;
+
+}

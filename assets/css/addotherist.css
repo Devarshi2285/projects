@@ -1,0 +1,87 @@
+.container-2{
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #add4d8;
+}
+.nav-2{
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+.nav-2 ul {
+    margin: 0;
+    padding: 100px 0 100px 10px;
+    list-style: none;
+}
+
+.nav-2 ul li{
+    font-size: x-large;
+    padding: 15px;
+}
+.nav-2 ul li {
+    font-size: x-large;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-2 ul li a:hover{
+    color: blueviolet;
+}
+.details{
+    width: 70%;
+    float: right;
+    padding: 65px 0 0 0;
+    background-color: aliceblue;
+}
+.head{
+    float: left;
+    padding: 0 5px;
+    font-size: xx-large;
+}
+.username{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+}
+.date{
+    float: left;
+}
+.enterinst{
+    float: left;
+    padding: 10px;
+}
+.enterinst label{
+    float: left;
+    width: 100%;
+}
+.submit-button{
+    width: 100%;
+    float: left;
+    padding: 8px 200px;
+}
+.submit-button button{
+    font-size: larger;
+    background-color:crimson;
+    color: antiquewhite;
+}
+.submit-button button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+.contact{
+    float: left;
+    width: 100%;
+    padding: 15px;
+}

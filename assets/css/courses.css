@@ -1,0 +1,41 @@
+.bound{
+    margin: 0 auto;
+    width: 800px;
+}
+.container-2{
+    width: 100%;
+    margin: 40px 0;
+    background-color:#cfbebeb8;
+    float: left;
+    font-family: 'Archivo Narrow';
+    color:#494036;
+    padding: 15px;
+}
+.headder{
+    float: left;
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+    font-size: xx-large;
+}
+.options{
+    float: left;
+    width: 100%;
+}
+.options ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.options ul li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    font-size: x-large;
+}
+.options ul li:hover{
+    font-size: 30px;
+    text-decoration-line: underline;
+    transition-delay: 0.3ms;
+    cursor: pointer;
+}

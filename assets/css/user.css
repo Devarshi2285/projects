@@ -1,0 +1,82 @@
+.container-2{
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #add4d8;
+}
+.nav-2{
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+.nav-2 ul {
+    margin: 0;
+    padding: 100px 0 100px 10px;
+    list-style: none;
+}
+
+.nav-2 ul li{
+    font-size: x-large;
+    padding: 15px;
+}
+.nav-2 ul li {
+    font-size: x-large;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-2 ul li a:hover{
+    color: blueviolet;
+}
+.details{
+    width: 70%;
+    float: right;
+    padding: 65px 0 0 0;
+    background-color: aliceblue;
+}
+.head{
+    float: left;
+    padding: 0 5px;
+    font-size: xx-large;
+}
+.head h2{
+    text-decoration: underline;
+}
+.plan{
+    width: 100%;
+    float: left;
+    padding: 0 5px;
+}
+.photo{
+    width: 100%;
+    float: left;
+}
+.pic1{
+    width: 50%;
+    float: left;
+}
+.pic1 img{
+    width: 100%;
+}
+.pic2{
+    width: 50%;
+    float: left;
+}
+.pic2 img{
+    width: 100%;
+}
+.discription{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}

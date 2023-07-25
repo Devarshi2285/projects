@@ -1,0 +1,96 @@
+.welcome{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.middle-top{
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    background-color: rgb(35, 22, 29);
+}
+.intro-img{
+    width: 50%;
+    float: left;
+    padding: 22px 5px 0 5px;
+}
+.intro-img img{
+    width: 100%;
+}
+.intro-para p{
+    width: 50%;
+    float: right;
+    background-color: aliceblue;
+    padding: 15px;
+    font-size: x-large;
+    border-radius: 2px;
+}
+.icon-bar{
+    width: 100%;
+    float: left;
+    padding: 40px 5px;
+}
+.icon-bar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;                  
+}
+.icon-bar li{
+    float: left;
+    padding: 0 15px;
+    width: 20%;
+}
+.icon-img{
+    float: left;
+    width: 100%;
+}
+.icon-img img{
+    max-width: 70px;
+    margin: 15px auto;
+    display: block;
+}
+.icon-text{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: x-large;
+}
+.head{
+    width: 100%;
+    float: left;
+    padding: 5px;
+}
+.coustemer{
+    width: 700px;
+    margin: 0 auto;
+}
+.bound{
+    width: 100%;
+    float: left;
+    background-color:#d5d0c942;
+}
+.name{
+    float: left;
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+}
+.pic{
+    width: 30%;
+    float: left;
+    padding: 15px;
+    
+}
+
+.pic img{
+    width: 100%;
+    float: left;
+    border: 5px;
+    border-color: rgb(8, 30, 30);
+    border-radius: 3px;
+}
+.review{
+        width: 70%;
+        float: left;
+        padding: 5px;
+    }

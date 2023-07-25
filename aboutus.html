@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="assets\css\aboutus.css">
+    <link rel="stylesheet" href="/assets/css/include.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="base.php"><img src="assets\images\logo.jpg" alt=""></a>
+            </div>
+            <nav class="nav-1">
+
+                <ul>
+                    <li><a href="contact us.php">CONTACT US</a></li>
+                    <?php if(isset($_SESSION['username'])){ ?> 
+                    <li><a href="logout.php">LOGOUT</a></li><?php } ?>
+                   
+                    <li><a href="login.php"><?php
+                            if(isset($_SESSION['username'])==""){
+                                echo "LOGIN";
+                            }
+                    
+                    ?>
+                    </a></li>
+                    <li><a href="courses.php">COURCES</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="free.html">FREE TRIAL</a></li>
+
+
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+
+    
+    <div class="heading">
+        <h1>About Us</h1>
+        <p>The primary purpose of an about us page is to inform the reader about the company and
+            its operations. This is a straightforward goal that nearly all businesses have to fulfill
+            in some fashion or another. However, there are other reasons why about us pages are common
+            fixtures on business websites.</p>
+
+
+    </div>
+    <div class="a">
+        <section class="about">
+            <div class="ai">
+                <img src="assets\images\about.jpg">
+            </div>
+            <div class="ac">
+                <h2>For More Information...</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore voluptas provident est inventore
+                    cum possimus iste accusamus in fuga labore quibusdam vel iure, ipsa repellendus impedit consequatur,
+                    neque porro eveniet dolore unde minima vitae! Voluptatem, officiis tempora?</p>
+                    <a href="" class="read-more">Read More</a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

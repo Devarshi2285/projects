@@ -1,0 +1,134 @@
+.container-2{
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #add4d8;
+}
+.nav-2{
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+.nav-2 ul {
+    margin: 0;
+    padding: 100px 0 100px 10px;
+    list-style: none;
+}
+
+.nav-2 ul li{
+    font-size: x-large;
+    padding: 15px;
+}
+.nav-2 ul li {
+    font-size: x-large;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-2 ul li a:hover{
+    color: blueviolet;
+}
+.details{
+    width: 70%;
+    float: right;
+    padding: 65px 0 0 0;
+    background-color: aliceblue;
+}
+.head{
+    float: left;
+    width: 100%;
+    padding: 0 5px;
+    font-size: xx-large;
+}
+.head h2{
+    text-decoration: underline;
+}
+.alert{
+    width: 100%;
+    float: left;
+    padding: 15px;
+    font-size: large;
+    color: crimson;
+}
+.userid{
+    float: left;
+    width: 50%;
+    padding: 5px;
+    font-size: larger;
+}
+.userid select{
+    font-size: large;
+}
+.date{
+    float: left;
+    width: 100%;
+    font-size: larger;
+    padding: 5px;
+}
+.discription{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+.addex{
+    float: left;
+    width: 100%;
+    padding: 5px;
+}
+.ex{
+    float: left;
+    width: 40%;
+    font-size: 30px;
+
+}
+.ex select{
+    font-size: 25px;
+}
+.quentity{
+    float: left;
+    width: 40%;
+   padding: 48px 5px 5px 5px;
+}
+.quentity textarea{
+    font-size: 25px;
+}
+.button{
+    float: right;
+    width: 20%;
+    padding: 48px 0;
+    font-size: 25px;
+}
+.button button{
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    font-weight: bold;
+}
+.button button:hover{
+        cursor: pointer;
+        color: crimson;
+}
+.submit-button{
+    width: 100%;
+    float: left;
+    padding: 8px 200px;
+}
+.submit-button button{
+    font-size: larger;
+    background-color:crimson;
+    color: antiquewhite;
+}
+.submit-button button:hover{
+    background-color: black;
+    cursor: pointer;
+}

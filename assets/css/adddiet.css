@@ -1,0 +1,152 @@
+.container-2{
+    padding: 10px;
+    margin: 0 auto;
+    width: 1000px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrap{
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    background-color: #add4d8;
+}
+.nav-2{
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+.nav-2 ul {
+    margin: 0;
+    padding: 100px 0 100px 10px;
+    list-style: none;
+}
+
+.nav-2 ul li{
+    font-size: x-large;
+    padding: 15px;
+}
+.nav-2 ul li {
+    font-size: x-large;
+    padding: 15px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nav-2 ul li a {
+    text-decoration: none;
+    color: black;
+}
+.nav-2 ul li a:hover{
+    color: blueviolet;
+}
+.details{
+    width: 70%;
+    float: right;
+    padding: 65px 0 0 0;
+    background-color: aliceblue;
+}
+.head{
+    float: left;
+    width: 100%;
+    padding: 0 5px;
+    font-size: xx-large;
+}
+.head h2{
+    text-decoration: underline;
+}
+.username{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+}
+.date{
+    float: left;
+    width: 100%;
+    padding: 5px;
+    font-size: larger;
+}
+.add-diet{
+    width: 100%;
+    float: left;
+}
+.dish-name{
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+.name{
+    width: 100%;
+    float: left;
+}
+.enter-name{
+    float: left;
+    width: 100%;
+}
+.enter-name textarea{
+    float: left;
+    width: 100%;
+}
+.dish-time{
+    width: 20%;
+    float: left;
+    padding: 5px;
+}
+.time{
+    width: 100%;
+    float: left;
+}
+.enter-time{
+    float: left;
+    width: 100%;
+}
+.enter-time textarea{
+    float: left;
+    width: 100%;
+}
+.dish-que{
+    width: 25%;
+    float: left;
+    padding: 5px;
+}
+.que{
+    width: 100%;
+    float: left;
+}
+.enter-que{
+    float: left;
+    width: 100%;
+}
+.enter-que textarea{
+    float: left;
+    width: 100%;
+}
+.add-button{
+    float: right;
+    width: 20%;
+    padding: 30px 10px;
+    font-size: 25px;
+}
+.add-button button{
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    font-weight: bold;
+}
+.add-button button:hover{
+        cursor: pointer;
+        color: crimson;
+}
+.submit-button{
+    width: 100%;
+    float: left;
+    padding: 8px 200px;
+}
+.submit-button button{
+    font-size: larger;
+    background-color:crimson;
+    color: antiquewhite;
+}
+.submit-button button:hover{
+    background-color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,70 @@
+.bg{
+    background-image: url('/assets/images/istockphoto-1287504319-170667a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.bound{
+    margin: 0 auto;
+    width: 400px;
+}
+.container-2{
+    width: 100%;
+    background-color:#2e2e2eb8;
+    float: left;
+    font-family: 'Roboto Slab';
+    color: #95908b;
+    padding: 15px;
+}
+.headding{
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+.error{
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    font-size: large;
+}
+.usernumber{
+    float: left;
+    width: 100%;
+    font-size: larger;
+}
+.password{
+    float: left;
+    width: 100%;
+    font-size: larger;
+}
+.type{
+    float: left;
+    width: 100%;
+    font-size: larger;
+    padding: 10px 5px;
+}
+.forgotpassword{
+    float: left;
+    width: 100%;
+}
+.signup{
+    float: left;
+    width: 100%;
+}
+.signup a{
+    color:#95908b;
+}
+.login-button{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.login-button button:hover{
+    background-color: aqua;
+    cursor: pointer;
+}

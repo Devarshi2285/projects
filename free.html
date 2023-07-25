@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="D:\project\assets\css">
+    <link rel="stylesheet" href="/assets/css/include.css">
+    <link rel="stylesheet" href="assets\css\free.css">
+</head>
+<body class="bg">
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="base.html"><img src="assets\images\logo.jpg" alt=""></a>
+            </div>
+            <nav class="nav-1">
+
+                <ul>
+                    <li><a href="contact us.php">CONTACT US</a></li>
+                    <?php if(isset($_SESSION['username'])){ ?> 
+                    <li><a href="logout.php">LOGOUT</a></li><?php } ?>
+                   
+                    <li><a href="login.php"><?php
+                            if(isset($_SESSION['username'])==""){
+                                echo "LOGIN";
+                            }
+                    
+                    ?>
+                    </a></li>
+                    <li><a href="courses.php">COURCES</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="free.html">FREE TRIAL</a></li>
+
+
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+
+    <div class="container1">
+        
+        <div class="free">
+            <div class="container2" >
+                <p>     START YOUR 30 DAYS TRIAL</p>
+            </div>
+            
+     
+     <div class="but"> <h1>START TRIAL</h1>
+    </div>
+    </div>
+    
+        <div class="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nostrum asperiores atque aperiam, deserunt animi quae nulla nisi earum accusamus. Natus assumenda, eum dolorem, veritatis nobis reprehenderit debitis doloremque quos quisquam sapiente quia voluptatem quis, fugit earum temporibus deleniti? Laboriosam tempora quidem distinctio nam voluptatem tempore expedita error sunt ducimus.</div>
+    </div>
+    <div class="img2">
+        <img src="assets/images/gym-526995__340.jpg">
+    </div>
+ 
+
+
+
+
+    
+</body>
+</html>
